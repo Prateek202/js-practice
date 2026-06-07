@@ -24,3 +24,7 @@ and easier to debug. In modern ES modules, strict mode is enabled automatically.
 console.log(typeof "prateek")   //typeof use to know the type
 console.log(typeof null)    //it will show object
 console.log(typeof undefined)
+
+// or we can write
+
+console.log(typeof("prateek")) 
