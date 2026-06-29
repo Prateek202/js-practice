@@ -11,7 +11,8 @@ const temp = [...name, ...name2, ...cricketers]
 
 
 // const anotherArr = [1,2,3,[4,5],6,7,[8],9]
-// const anotherArr2 = anotherArr.flat(1)  //in flat(arg) arg we give depth so it is basically nesting
+// const anotherArr2 = an
+// arg we give depth so it is basically nesting
 // const anotherArr3 = anotherArr.flat(Infinity)   //we can write like this too
 // console.log(anotherArr2)
 // console.log(anotherArr3)
