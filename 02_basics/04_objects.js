@@ -26,7 +26,7 @@ const ob2 = {3: "c", 4: "d"}
 //and we can also use spread operator like arrays
 
 const ob3 = {...ob1, ...ob2}
-console.log(ob3);
+//console.log(ob3);
 
 
 //when values come from databases 
@@ -47,12 +47,38 @@ const users = [
     }
 
 ]
-console.log(users[0].id)
+// console.log(users[0].id)
 //console.log(tinderUser)
-console.log(Object.keys(tinderUser))    //list only keys of object as array
-console.log(Object.values(tinderUser))    //list only values of object as array
-console.log(Object.entries(tinderUser))    
+// console.log(Object.keys(tinderUser))    //list only keys of object as array
+// console.log(Object.values(tinderUser))    //list only values of object as array
+// console.log(Object.entries(tinderUser))    
 
-console.log(tinderUser.hasOwnProperty("name"))  //return true or false
+// console.log(tinderUser.hasOwnProperty("name"))  //return true or false
+
+//********OBJECT DESTRUCTURING********** */
+
+const course = {
+    courseName: "dsa",
+    courseInstructor: "abc",
+    price: "2"
+}
+
+//now we can access courseName and other attributes by using course.courseName
+//destructuring is another way to do this
+
+const {courseName} = course
+//or
+const {courseName:name} = course
+console.log(name)
+
+
+//JSON: it is a object without name, and in this key should be written as string
+// {
+//     "id": 1,
+//     "name": "abc",
+//     "age": 2    
+
+
+// }
 
 
