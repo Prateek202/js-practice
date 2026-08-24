@@ -37,3 +37,5 @@ const totalPayment = shoppingCart.reduce((acc, curVal)=>{
     return acc = acc + curVal.price
 }, 0)
 console.log(totalPayment)
+
+

@@ -1,3 +1,14 @@
+/*
+1. forEach() always returns undefined and is not chainable.
+2. There is no way to stop or break a forEach() loop other than by throwing an exception. 
+    If you need such behavior, the forEach() method is the wrong tool.
+3. Early termination may be accomplished with looping statements like for, for...of, and for...in.
+4. 
+
+*/
+
+
+
 // const coding = ["js", "c", "cpp", "python"]
 // coding.forEach( (item) => {
 //     //console.log(item)
